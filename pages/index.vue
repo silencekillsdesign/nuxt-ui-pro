@@ -21,7 +21,7 @@ defineOgImage({
       <template #headline>
         <UBadge v-if="page.hero.headline" variant="subtle" size="lg" class="relative rounded-full font-semibold">
           <NuxtLink :to="page.hero.headline.to" target="_blank" class="focus:outline-none" tabindex="-1">
-            <span class="absolute inset-0" aria-hidden="true" />
+            <!-- <span class="absolute inset-0" aria-hidden="true" /> -->
           </NuxtLink>
 
           {{ page.hero.headline.label }}
